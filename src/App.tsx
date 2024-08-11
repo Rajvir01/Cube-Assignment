@@ -24,7 +24,7 @@ const App: React.FC = () => {
     }));
     setCustomers(customersWithIds);
     fetchPhotos();
-    const interval = setInterval(fetchPhotos, 10000); // Refresh every 10 seconds
+    const interval = setInterval(fetchPhotos, 10000);
     return () => clearInterval(interval);
   }, []);
 

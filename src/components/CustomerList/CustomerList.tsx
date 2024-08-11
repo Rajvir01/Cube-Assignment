@@ -1,4 +1,3 @@
-// CustomerList.tsx
 import React, { useEffect, useState } from 'react';
 import CustomerCard from '../CustomerCard/CustomerCard';
 import customersData from '../../assests/customerData.json'

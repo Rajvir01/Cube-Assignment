@@ -1,5 +1,4 @@
 import React from 'react';
-import { Card } from '@nextui-org/react';
 
 interface CustomerCardProps {
   name: string;
