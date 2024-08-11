@@ -47,7 +47,7 @@ const App: React.FC = () => {
     : null;
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', height: '90vh', overflow: 'hidden' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', height: '94vh', overflow: 'hidden' }}>
       <NavBar />
       <div style={{ display: 'flex', overflow: 'hidden', marginTop: '50px', flexDirection: 'row' }}>
         <div style={{

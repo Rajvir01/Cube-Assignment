@@ -7,7 +7,7 @@ interface PhotoGridProps {
 
 const PhotoGrid: React.FC<PhotoGridProps> = ({ photoUrls }) => {
   return (
-    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }}>
+    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '14px' }}>
       {photoUrls.map((photo, index) => (
         <Card key={index} isHoverable style={{ borderRadius: '12px', overflow: 'hidden' }}>
           <img
