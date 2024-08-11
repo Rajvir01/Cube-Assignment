@@ -38,39 +38,3 @@ const CustomerList: React.FC<CustomerListProps> = ({ onSelectCustomer, selectedC
 };
 
 export default CustomerList;
-// interface Customer {
-//   name: string;
-//   title: string;
-//   address: string;
-// }
-
-// const CustomerList: React.FC<CustomerListProps> = ({ onSelectCustomer, selectedCustomer }) => {
-//   const [customers, setCustomers] = useState<Customer[]>([]);
-
-//   useEffect(() => {
-//     const fetchCustomerData = async () => {
-//       const response = await fetch('/data/customerData.json'); // Update the path as needed
-//       const data = await response.json();
-//       setCustomers(data);
-//     };
-
-//     fetchCustomerData();
-//   }, []);
-
-//   return (
-//     <div style={{ display: 'flex', flexDirection: 'column', flex: 1 }}>
-//       {customers.map((customer, index) => (
-//         <div key={index} style={{ borderBottom: '1px solid #ccc' }}>
-//           <CustomerCard
-//             name={customer.name}
-//             title={customer.title}
-//             selected={selectedCustomer === index} // Use index for selection
-//             onSelect={() => onSelectCustomer(index)} // Use index for selection
-//           />
-//         </div>
-//       ))}
-//     </div>
-//   );
-// };
-
-
